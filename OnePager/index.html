@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wild & Free Clothing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Mijn Skills</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section home">
+            <div class="section__content">
+                <h1 class="section__title">Wild & Free Clothing</h1>
+                <p class="section__description">Kleding voor de vrijgevochten geest</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills">
+            <h2 class="section__title">Mijn Skills</h2>
+            <div class="skills__grid">
+                <div class="skills__card">
+                    <div class="skills__icon">👕</div>
+                    <h3>Unieke Designs</h3>
+                    <p>Creatieve en originele kledingontwerpen</p>
+                </div>
+                <div class="skills__card">
+                    <div class="skills__icon">✂️</div>
+                    <h3>Handgemaakt</h3>
+                    <p>Ambachtelijk gemaakte kledingstukken</p>
+                </div>
+                <div class="skills__card">
+                    <div class="skills__icon">🌿</div>
+                    <h3>Duurzaam</h3>
+                    <p>Eco-vriendelijke materialen en processen</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <h2 class="section__title">Neem Contact Op</h2>
+            <form class="contact__form" action="mailto:info@wildfreeclothing.com" method="post" enctype="text/plain">
+                <input type="text" name="naam" class="contact__input" placeholder="Jouw naam" required>
+                <input type="email" name="email" class="contact__input" placeholder="Jouw email" required>
+                <textarea name="bericht" class="contact__input contact__textarea" placeholder="Jouw bericht" required></textarea>
+                <input type="hidden" name="send_to_mail" value="info@wildfreeclothing.com">
+                <button type="submit" class="contact__button">Versturen</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2023 Wild & Free Clothing. Alle rechten voorbehouden.</p>
+    </footer>
+</body>
+</html>
